@@ -1,16 +1,30 @@
+/************/
+/*  fonts   */
+/************/
 /* sniglet-extraBold */
 @import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap');
 
 /*sniglet-regular*/
 @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
 
-/* 주아체 */
+/* jua */
 @font-face {
     font-family: 'BMJUA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
+/* jalnan */
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Inter-Black900 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -57,7 +71,9 @@ header {
 
 #logo h5 {
     position: absolute;
+    font-weight: 400;
     font-size: 24px;
+    text-align: center;
     font-family: 'BMJUA';
     margin-left: 34px;
     padding: 10px 0px;
@@ -67,6 +83,7 @@ header {
 /*  콘텐츠 영역  */
 /*****************/
 #contents {
+    position: relative;
     width: 100%;
     height: 902px;
 }
@@ -74,8 +91,56 @@ header {
 #explanation {
     width: 736px;
     height: 902px;
-    background-color: skyblue;
     float: left;
+}
+
+#icon {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    line-height: 121px;
+    position: absolute;
+    font-size: 100px;
+    color:#70A36C;
+    margin: 98px 201px;
+    width: 109px;
+    height: 108px;
+}
+
+#comment {
+    font-family: 'Jalnan';
+    color: #fff;
+    background-color: #BFE5BC;
+    width: 305.72px;
+    height: 342px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 206px 310.28px;
+}
+
+#comment p {
+    position: absolute;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 200;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 359px;
+    top: 273px;
+}
+
+#comment button {
+    position: absolute;
+    font-family: 'Sniglet', cursive;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    width: 111.87px;
+    height: 54.42px;
+    font-size: 20px;
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
+    top: 353px;
+    left: 359px;
 }
 
 #lottoMachine {
