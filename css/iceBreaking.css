@@ -1,5 +1,8 @@
-/* sniglet */
+/* sniglet-extraBold */
 @import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap');
+
+/*sniglet-regular*/
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
 
 /* 주아체 */
 @font-face {
@@ -76,9 +79,27 @@ header {
 }
 
 #lottoMachine {
+    position: relative;
     width: 704px;
     height: 902px;
-    background-color: gray;
     float: left;
+}
+
+#lottoMachine > img {
+    margin-top: 114px;
+}
+
+#start {
+    position: absolute;
+    font-family: 'Sniglet', cursive;
+    width: 215.42px;
+    height: 86.1px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    margin-top: 583.98px;
+    left: 149.97px;
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25) ;
 }
 
