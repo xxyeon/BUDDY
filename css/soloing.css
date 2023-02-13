@@ -60,7 +60,7 @@ header {
     font-family: 'Sniglet', cursive;
     font-weight: 700;
     font-size: 55px;
-    color: #FFE76B;
+    color: #FFCD1B;
 }
 #logo h1:nth-of-type(2) {
     color: #FEB59E;
@@ -68,13 +68,15 @@ header {
 
 #logo h5 {
     position: absolute;
+    width: 152px;
+    height: 26px;
     font-weight: 400;
     font-size: 24px;
     text-align: center;
     font-family: 'BMJUA';
     margin-left: 34px;
     padding: 10px 0px;
-    color: #FFE76B;
+    color: #FFCD1B;
 }
 /*****************/
 /*  콘텐츠 영역  */
@@ -86,7 +88,7 @@ header {
 }
 
 #explanation {
-    width: 736px;
+    width: 660px;
     height: 902px;
     float: left;
 }
@@ -97,13 +99,16 @@ header {
     line-height: 121px;
     position: absolute;
     font-size: 100px;
-    color:#FFE76B;
-    margin: 98px 201px;
+    color:#FFCD1B;
+    left: 179px;
+    top: 248px;
     width: 109px;
     height: 108px;
 }
 
 #comment {
+    position: relative;
+    position: absolute;
     font-family: 'Jalnan';
     color: #fff;
     background-color: #FFE76B;
@@ -112,7 +117,8 @@ header {
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    margin: 206px 310.28px;
+    top: 335px;
+    left: 288.28px;
 }
 
 #comment p {
@@ -122,8 +128,8 @@ header {
     line-height: 36px;
     font-weight: 200;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    left: 359px;
-    top: 273px;
+    left: 48.72px;
+    top: 68px;
 }
 
 #comment button {
@@ -136,19 +142,20 @@ header {
     height: 54.42px;
     font-size: 20px;
     box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
-    top: 353px;
-    left: 359px;
+    top: 148px;
+    left: 48.72px;
 }
 
 #lottoMachine {
     position: relative;
-    width: 704px;
+    width: 780px;
     height: 902px;
     float: left;
 }
 
 #lottoMachine > img {
-    margin-top: 114px;
+    position: absolute;
+    top: 81px;
 }
 
 #start {
@@ -160,7 +167,7 @@ header {
     border-radius: 20px;
     border: none;
     background-color: white;
-    margin-top: 583.98px;
+    margin-top: 550.98px;
     left: 149.97px;
     box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25) ;
 }
