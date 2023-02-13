@@ -86,3 +86,20 @@ header {
     top: 204px;
     left: 435px;
 }
+
+#stop {
+    position: absolute;
+    width: 237px;
+    height: 96px;
+    left: 600px;
+    top: 728px;
+    background-color: #FFFFFF;
+    font-size: 35px;
+    font-family: 'Jalnan';
+    border: none;
+    border-radius: 20px;
+}
+
+#stop:hover {
+    font-size: 40px;
+}
