@@ -33,6 +33,7 @@ a {
 #container {
     margin: 0 auto; /* 화면 중간에 배치 */
     width: 1440px;
+    position: relative;
 }
 /****************/
 /*  헤더 영역   */
