@@ -23,6 +23,7 @@ a {
 #container {
     margin: 0 auto; /* 화면 중간에 배치 */
     width: 1440px;
+    position: relative;
 }
 /****************/
 /*  헤더 영역   */
@@ -65,4 +66,15 @@ header {
     margin-left: 34px;
     padding: 10px 0px;
     color: #70A36C;
+}
+
+/****************/
+/*  콘텐츠 영역 */
+/****************/
+#lottoMachine img {
+    position: absolute;
+    width: 571px;
+    height: 679px;
+    top: 204px;
+    left: 435px;
 }
