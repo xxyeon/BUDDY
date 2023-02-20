@@ -3,20 +3,26 @@
 *{margin:0; padding:0;}
 
 body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    position: relative;
-    width: 1440px;
-    height: 1024px;
 
     background-color:#f4f9eb;
 
 
 }
 
+.h1text{
+
+
+    min-height: 100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
 h1{
-	position:relative;
+    position:relative;
 	font-family:'Sniglet', cursive;
     text-shadow:4px 4px 4px rgba(0,0,0,0.5);
 	font-style:normal; /*이탈릭, 기울어짐꼴*/
@@ -25,9 +31,9 @@ h1{
 	/*line-height:62px; 줄간격*/
 	color: #BFE5BC; /*원래 글자색*/ 
 	/*mix-blend-mode:normal; 서로 다른 요소 겹쳐 색상에 대한 효과 줌 */
-	
 
 }
+
 
 h1::before{
     content:attr(data-text); 
