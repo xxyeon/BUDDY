@@ -95,5 +95,40 @@ ul:last-child {
 }
 
 dt {
+    position: absolute;
     float: left;
+    margin-right: 22px;
+    width: 109px;
+    height: 108px;
+    background-color: blue;
 }
+dd {
+    position: absolute;
+    width: 164px;
+    height: 20.94px;
+    top: 66px;
+    left: 131px;
+    background-color: blueviolet;
+}
+
+
+section {
+    background-color: antiquewhite;
+    width: 761px;
+    height: 488.17px;
+    position: absolute;
+    top: 99.83px;
+    left: 133px;
+}
+
+section p{
+    text-align: center;
+}
+
+section p:first-child {
+    margin-top: 169.17px;
+}
+section p:last-child {
+    margin-top: 15.14px;
+}
+
