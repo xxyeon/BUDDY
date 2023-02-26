@@ -1,8 +1,35 @@
+/************/
+/*  fonts   */
+/************/
+/* sniglet-extraBold */
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap');
+
+/* jua */
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* jalnan */
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Inter-Black900 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+}
+
+a {
+    text-decoration:  none;
 }
 
 #container {
@@ -37,6 +64,13 @@ header {
     float: left;
     top: 26px;
     text-align: center;
+    font-family: 'sniglet', cursive;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+#logo h1:nth-of-type(2) {
+    color: #FEB59E;
 }
 
 #logo h5 {
@@ -45,6 +79,9 @@ header {
     width: 152px;
     height: 26px;
     text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'BMJUA';
 }
 
 #line {
@@ -61,12 +98,15 @@ header {
 /*** 네비게이션 ***/
 /****************/
 nav {
-    background-color: aqua;
-
     height: 26px;
     position: absolute;
     top: 64px;
     left: 506px;
+    font-family: 'BMJUA';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #818181;
 }
 
 li {
@@ -101,6 +141,10 @@ dt {
     width: 109px;
     height: 108px;
     background-color: blue;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    line-height: 121px;
+    font-size: 100px;
 }
 dd {
     position: absolute;
@@ -109,6 +153,10 @@ dd {
     top: 66px;
     left: 131px;
     background-color: blueviolet;
+    font-family: 'Jalnan';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 26px;
 }
 
 
@@ -127,8 +175,20 @@ section p{
 
 section p:first-child {
     margin-top: 169.17px;
+    font-family: 'Jalnan';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFF;
 }
 section p:last-child {
     margin-top: 15.14px;
+    font-family: 'Jalnan';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 102px;
+    text-align: center;
+    color: #FFF;
 }
 
