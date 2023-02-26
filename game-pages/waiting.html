@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/waiting.css">
     <title>BUDDY</title>
 </head>
 <body>
     <div id="container">
         <header>
             <div id="logo">
-                <h1>BU</h1><h1>:</h1><h1>DDY</h1>
                 <h5></h5>
+                <h1>BU</h1><h1>:</h1><h1>DDY</h1>
             </div>
+            <hr id="line">
             <nav>
                 <ul>
                     <li><a href="start-page.html">시작화면으로</a></li>
@@ -24,11 +26,12 @@
         <div id="contents">
             <dl>
                 <dt id="icon">:D</dt>
-                <dd></dd>
+                <dd>훈민정음게임</dd>
             </dl>
-            <p class="explain">게임이 곧 시작됩니다!</p>
-            <p class="explain">5</p>
-            
+            <section>
+                <p class="explain">게임이 곧 시작됩니다!</p>
+                <p class="explain" id="countdown">5</p>
+            </section>
         </div>
     </div>
     <script>
@@ -36,6 +39,6 @@
         const text = localStorage.getItem("thema");
         h5.innerText = text;
     </script>
-    <script src="../js/timeOut.js"></script>
+    <!--<script src="../js/timeOut.js"></script>-->
 </body>
 </html>
