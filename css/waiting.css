@@ -33,6 +33,10 @@ a {
     color: #818181;
 }
 
+a:hover {
+    color: black;
+}
+
 #container {
     margin: 0 auto;
     width: 1440px;
