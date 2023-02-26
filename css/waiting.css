@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+/****************/
+/***** 헤더 *****/
+/****************/
+
+header {
+    width: 100%;
+    height: 157px;
+    background-color: beige;
+    position: relative;
+}
+
+/****************/
+/**** 로고 ****/
+/****************/
+#logo {
+    position: absolute;
+    width: 219px;
+    height: 91px;
+    top: 31px;
+    left: 60px;
+    background-color: azure;
+ }
+
+#logo h1 {
+    float: left;
+    top: 26px;
+    text-align: center;
+}
+
+#logo h5 {
+    background-color: blue;
+    margin: 0 auto; /*logo 안에서 가운데 정렬*/
+    width: 152px;
+    height: 26px;
+    text-align: center;
+}
+
+#line {
+    position: absolute;
+    width: 1182px;
+    height: 1px;
+    left: 258px;
+    bottom: 47px;
+    border-color: green;
+    
+}
+
+/****************/
+/*** 네비게이션 ***/
+/****************/
+nav {
+    background-color: aqua;
+
+    height: 26px;
+    position: absolute;
+    top: 64px;
+    left: 506px;
+}
+
+li {
+    float: left;
+    width: 161px;
+    height: 24px;
+    margin-right: 71px;
+    text-align: center;
+}
+
+ul:last-child {
+    margin-right: 0;
+}
+
+/****************/
+/*** 콘텐츠 ***/
+/****************/
+#contents {
+    clear: left;
+    position: relative;
+    width: 892px;
+    height: 588px;
+    left: 235px;
+    top: 81px;
+    background-color: aqua;
+}
+
+dt {
+    float: left;
+}
