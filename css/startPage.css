@@ -1,0 +1,245 @@
+/************/
+/*  fonts   */
+/************/
+/* sniglet-extraBold */
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@800&display=swap');
+
+/* jalnan */
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* jua */
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/****************/
+/*  로고 영역   */
+/****************/
+
+#logo {
+    margin: 0 auto; /* 화면 중간에 배치 */
+    position: absolute;
+    width: 808px;
+    height: 70px;
+    top : 250px;
+    display: flex;
+    align-items: center;
+}
+
+/*#logo {*/
+/*    width: 808px;*/
+/*    height: 70px;*/
+/*    background-color: #BFE5BC;*/
+/*    display: flex;*/
+/*    position: relative;*/
+/*}*/
+
+#title {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+#logo h1 {
+    float: left;
+    font-family: 'Sniglet', cursive;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 120px;
+    color: #818181;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logo h1:nth-of-type(2) {
+    color: #FEB59E;
+}
+
+#line {
+    z-index: 1;
+    position: absolute;
+    height: 1px;
+    width: 463px;
+    right: 0;
+    bottom: 10px;
+    background-color: #838383;
+    border: 2px solid #838383;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#desc {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-family: 'BMJUA';
+    color: #838383;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+button {
+    border: none;
+}
+
+#play-button {
+    display: flex;
+    position: absolute;
+    top : 330px;
+    right: 400px;
+}
+
+#play-icebreaker{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 383px;
+    height: 140px;
+    top: 27px;
+    background: #BFE5BC;
+    border-radius: 12px;
+}
+
+#play-icebreaker:hover{
+    background-color: #FFFFFF;
+    transition: 300ms ease-in-out;
+    border: solid #70A36C;
+}
+
+#play-icebreaker p{
+    text-align: center;
+    font-family: BMJUA;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+}
+
+#play-solo{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 383px;
+    height: 140px;
+    top: 27px;
+    left: 425px;
+
+    background: #FFF7B4;
+    border-radius: 12px;
+}
+
+#play-solo:hover{
+    background-color: #FFFFFF;
+    transition: 200ms ease-in-out;
+    border: solid #FFCD1B;
+}
+
+#play-solo:hover ~ #desc{
+    background-color: #FEB59E;
+}
+
+#play-solo p{
+    font-family: BMJUA;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+}
+
+/*
+button {
+    border: none;
+    position: absolute;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+#play-icebreaker{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 383px;
+    height: 140px;
+    top: 27px;
+
+    background: #BFE5BC;
+    border-radius: 12px;
+}
+
+#play-icebreaker:hover{
+    background-color: #FFFFFF;
+    transition: 300ms ease-in-out;
+    border: solid #70A36C;
+}
+
+#play-icebreaker p{
+    text-align: center;
+    font-family: BMJUA;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+}
+
+#play-solo{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 383px;
+    height: 140px;
+    top: 27px;
+    left: 425px;
+
+    background: #FFF7B4;
+    border-radius: 12px;
+}
+
+#play-solo:hover{
+    background-color: #FFFFFF;
+    transition: 200ms ease-in-out;
+    border: solid #FFCD1B;
+}
+
+#play-solo:hover ~ #desc{
+    background-color: #FEB59E;
+}
+
+#play-solo p{
+    font-family: BMJUA;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+}*/
+
