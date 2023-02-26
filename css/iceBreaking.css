@@ -50,31 +50,30 @@ header {
     position: absolute;
     width: 219px;
     height: 91px;
-    margin-top: 31px;
-    margin-left: 60px;
+    top: 31px;
+    left: 60px;
 }
 
 #logo h1 {
     float: left;
-    margin-top: 26px;
+    top: 26px;
     font-family: 'Sniglet', cursive;
     font-weight: 700;
     font-size: 55px;
-    color: #70A36C;
+    text-align: center;
 }
 #logo h1:nth-of-type(2) {
     color: #FEB59E;
 }
 
 #logo h5 {
-    position: absolute;
+    margin: 0 auto; /*logo 안에서 가운데 정렬*/
+    width: 152px;
+    height: 26px;
     font-weight: 400;
     font-size: 24px;
     text-align: center;
     font-family: 'BMJUA';
-    margin-left: 34px;
-    padding: 10px 0px;
-    color: #70A36C;
 }
 /*****************/
 /*  콘텐츠 영역  */
@@ -97,7 +96,6 @@ header {
     line-height: 121px;
     position: absolute;
     font-size: 100px;
-    color:#70A36C;
     left: 179px;
     top: 248px;
     width: 109px;
@@ -109,7 +107,6 @@ header {
     position: absolute;
     font-family: 'Jalnan';
     color: #fff;
-    background-color: #BFE5BC;
     width: 305.72px;
     height: 342px;
     border-top-right-radius: 50px;
@@ -166,7 +163,7 @@ header {
     border: none;
     background-color: white;
     margin-top: 550.98px;
-    left: 149.97px;
+    right: 413.61px;
     box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25) ;
 }
 
