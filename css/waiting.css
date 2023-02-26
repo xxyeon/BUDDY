@@ -159,6 +159,9 @@ section {
     top: 99.83px;
     left: 133px;
     background-color: #FEB59E;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 section p{
