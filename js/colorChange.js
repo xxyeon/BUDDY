@@ -1,6 +1,7 @@
 const section = document.querySelector("section");
 const icon = document.querySelector("#icon");
 const themaInContents = document.querySelector("dd");
+const p = document.querySelector("#contents p:last-child")
 
 const line = document.querySelector("#line");
 const buddy = document.querySelectorAll("h1");
@@ -21,6 +22,7 @@ if(thema === GREEN) {
     buddy[2].className = CLASSOFGREEN;
     themaInLogo.className = CLASSOFGREEN;
     line.className = CLASSOFGREEN;
+    p.classList.toggle("icBreaking-contents");
 } else if(thema === YELLO) {
     section.className = "soloing-contents";
     icon.className = CLASSOFYELLO;
@@ -29,4 +31,5 @@ if(thema === GREEN) {
     buddy[2].className = CLASSOFYELLO;
     themaInLogo.className = CLASSOFYELLO;
     line.className = CLASSOFYELLO;
+    p.classList.toggle("soloing-contents");
 }
