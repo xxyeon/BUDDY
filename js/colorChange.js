@@ -1,7 +1,7 @@
 const gameContents = document.querySelector("#game");
 const icon = document.querySelector("#icon");
 const themaInContents = document.querySelector("dd");
-const p = document.querySelector("#contents p:last-child")
+const resultButton = document.querySelector("button")
 
 const line = document.querySelector("#line");
 const buddy = document.querySelectorAll("h1");
@@ -22,7 +22,7 @@ if(thema === GREEN) {
     buddy[2].className = CLASSOFGREEN;
     themaInLogo.className = CLASSOFGREEN;
     line.className = CLASSOFGREEN;
-    p.classList.toggle("icBreaking-contents");
+    resultButton.classList.toggle("icBreaking-contents");
 } else if(thema === YELLO) {
     gameContents.className = "soloing-contents";
     icon.className = CLASSOFYELLO;
@@ -31,5 +31,5 @@ if(thema === GREEN) {
     buddy[2].className = CLASSOFYELLO;
     themaInLogo.className = CLASSOFYELLO;
     line.className = CLASSOFYELLO;
-    p.classList.toggle("soloing-contents");
+    resultButton.classList.toggle("soloing-contents");
 }

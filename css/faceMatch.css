@@ -134,7 +134,7 @@ ul:last-child {
     top: 81px;
 }
 
-#contents p:last-child{
+button{
     position: absolute;
     width: 761px;
     height: 150px;
@@ -142,7 +142,6 @@ ul:last-child {
     margin-top: 30px;
     left: 131px;
     border-radius: 50px;
-    padding-top: 51px;
     bottom: 0px;
     font-family: 'Jalnan';
     font-style: normal;
@@ -150,6 +149,11 @@ ul:last-child {
     line-height: 42px;
     font-size: 40px;
     color: #FFF;
+    border: none;
+}
+
+button:hover {
+    font-size: 45px;
 }
 
 dt {
