@@ -176,23 +176,22 @@ dd {
 }
 
 
-section {
+#game {
     width: 761px;
     height: 364.72px;
     position: absolute;
     top: 99.83px;
     left: 131px;
-    background-color: #FEB59E;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
 
-section p{
+#game p{
     text-align: center;
 }
 
-section p:first-child {
+#game p:first-child {
     padding-top: 49.72px;
     font-family: 'Jalnan';
     font-weight: 700;
@@ -201,7 +200,7 @@ section p:first-child {
     text-align: center;
     color: #FFF;
 }
-section p:last-child {
+#game p:last-child {
     margin-top: 15.14px;
     font-family: 'Jalnan';
     font-weight: 700;
@@ -211,7 +210,7 @@ section p:last-child {
     color: #FFF;
 }
 
-section input {
+#game input {
     position: absolute;
     width: 321px;
     height: 42px;
