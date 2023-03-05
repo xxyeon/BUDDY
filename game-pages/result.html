@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/result.css">
+    <link rel="stylesheet" href="../css/palette.css">
+    <title>BUDDY</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h5></h5>
+                <div class="shadow">
+                    <h1>BU</h1><h1>:</h1><h1>DDY</h1>
+                </div>
+            </div>
+            <hr id="line">
+            <nav>
+                <ul>
+                    <li><a href="start-page.html">시작화면으로</a></li>
+                    <li><a href="lotto-page.html">추첨 다시하기</a></li>
+                    <li><a href="waiting.html">게임 재실행</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="contents">
+            <dl>
+                <dt id="icon"></dt>
+                <dd><!--눈코입 게임인 경우 정답입니다! or 틀렸습니다
+                    훈민정임 게임인 경우 벌칙은...--></dd>
+            </dl>
+            <div id="game">
+                <img src="../img/link.png">
+                <!--img src="../img/iuA.jpeg"-->
+                <!--p class="shadow">아이유</p-->
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector("h5").innerText = localStorage.getItem("thema");
+    </script>
+    <script src="../js/colorChange.js"></script>
+    <script src="../js/showResult.js"></script>
+</body>
+</html>
