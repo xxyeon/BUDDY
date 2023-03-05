@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/faceMatch.css">
-    <link rel="stylesheet" href="../../css/palette.css">
+    <link rel="stylesheet" href="../css/faceMatch.css">
+    <link rel="stylesheet" href="../css/palette.css">
     <title>BUDDY</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
                 <ul>
                     <li><a href="start-page.html">시작화면으로</a></li>
                     <li><a href="lotto-page.html">추첨 다시하기</a></li>
-                    <li><a href="waiting.html">게임 재실행</a></li>
+                    <li><a href="./waiting.html">게임 재실행</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,17 +31,18 @@
                 <dt id="icon">:D</dt>
                 <dd></dd>
             </dl>
-            <div id="game"> <!--sectin으로 설정시 img 태그 추가가 안됌-->
+            <div id="game"> <!--sectin으로 설정시 img 태그 추가가 안됌--> <!--게임에 따라 #game 안의 태그들을 변경 가능?-->
                 <p class="explain shadow">누구의 눈 코 입 일까요?</p>
                 <!--img-->
                 <input type="text" placeholder="연예인 이름을 입력하시오.">          
             </div>
-            <a href="result.html"><button class="shadow" onclick="location.href='result.html'">정답 보기</button></a>
+            <a href="./result.html"><button class="shadow" onclick="location.href='result.html'">정답 보기</button></a>
         </div>
 </div>
-<script src="../../js/colorChange.js"></script>
-<script src="../../js/addInnerText.js"></script>
-<script src="../../js/showRandomFace.js"></script>
-<script src="../../js/buttonTextShadow.js"></script>
+<script src="../js/colorChange.js"></script>
+<script src="../js/addInnerText.js"></script>
+<script src="../js/showRandom.js"></script>
+<script src="../js/buttonTextShadow.js"></script>
+<script src="../js/saveResult.js"></script>
 </body>
 </html>
