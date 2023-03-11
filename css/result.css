@@ -161,8 +161,8 @@ dd {
 
 #game {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;    /* #game 자식 태그들이 교차축 가운데 정렬을 하기 위함 */
+    justify-content: center;    /* 주축 가운데 정렬 */
     width: 761px;
     height: 488.17px;
     position: absolute;
@@ -180,6 +180,30 @@ dd {
     right: 41px;
     bottom: 38px;
 }
+
+.copy {
+    position: absolute;
+    width: 254px;
+    height: 102px;
+    background-color: #FEB59E;
+    text-align: center; /* text 가로 가운데 정렬 */
+    top: 216px;
+    font-family: 'BMJUA';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 102px; /* text 세로 가운데 정렬 */
+    animation: fadeout 3s;
+}
+
+@keyframes fadeout {
+    /* 효과를 동작시간 동안 0 ~ 1까지 */
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
 
 .penalty {
     position: absolute;
