@@ -7,7 +7,7 @@ function showText() {
   gameContents.appendChild(span);
   setTimeout(() => {
     gameContents.removeChild(span);
-  }, 3000);
+  }, 2000);
 }
 
 const copyUrl = async () => {

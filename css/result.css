@@ -192,7 +192,7 @@ dd {
     font-weight: 400;
     font-size: 20px;
     line-height: 102px; /* text 세로 가운데 정렬 */
-    animation: fadeout 3s;
+    animation: fadeout 2.5s;
 }
 
 @keyframes fadeout {
