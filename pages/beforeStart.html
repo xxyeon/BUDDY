@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUDDY</title>
+    <link rel="stylesheet" id="changeStyle" href="../css/beforeStart.css">
+    <link rel="stylesheet" href="../css/palette.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h5></h5>
+                <a href="start-page.html">
+                    <h1>BU</h1><h1>:</h1><h1>DDY</h1>
+                </a>
+            </div>
+        </header>
+        <div id="contents" class="iceBreaking-contents">
+            <div id="explanation">
+                <b><p id="icon">:D</p></b>
+                <div id="comment">
+                    <p>추첨을 <br>시작하려면 <br><br><br>눌러주세요</p>
+                    <button>START</button>
+                </div>
+            </div>
+            <div id="lottoMachine">
+                <!--lottoMachin image-->
+            </div>
+            <button onclick="location.href='afterStart.html'" id="start">START</button>
+        </div>
+    </div>
+    <script>
+        document.querySelector("h5").innerText = localStorage.getItem("thema");
+    </script>
+    <script src="../js/lottoColorChange.js"></script>
+    <script src="../js/changeMachine.js"></script>
+</body>
+</html>
