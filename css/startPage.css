@@ -119,7 +119,7 @@ button {
     position: absolute;
     align-items: center;
     justify-content: center;
-    width: 383px;
+    width: 330px;
     height: 140px;
     top: 27px;
     background: #BFE5BC;
@@ -146,10 +146,10 @@ button {
     position: absolute;
     align-items: center;
     justify-content: center;
-    width: 383px;
+    width: 330px;
     height: 140px;
     top: 27px;
-    left: 425px;
+    left: 340px;
 
     background: #FFF7B4;
     border-radius: 12px;
@@ -161,11 +161,36 @@ button {
     border: solid #FFCD1B;
 }
 
-#play-solo:hover ~ #desc{
-    background-color: #FEB59E;
-}
 
 #play-solo p{
+    font-family: BMJUA;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+}
+
+#play-random{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 140px;
+    top: 27px;
+    left: 680px;
+    border-radius: 12px;
+    background: #CFE4F9;
+
+}
+
+#play-random:hover{
+    background-color: #FFFFFF;
+    transition: 200ms ease-in-out;
+    border: solid #CFE4F9;
+}
+
+#play-random p{
     font-family: BMJUA;
     font-weight: 400;
     font-size: 32px;
