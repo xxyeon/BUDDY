@@ -1,0 +1,110 @@
+[
+  {
+    "id":1,
+    "category" : "solo",
+    "name": "코노 가기"
+  },
+  {
+    "id":2,
+    "category" : "solo",
+    "name": "클래식 10분 들으며 명상하기"
+  },
+  {
+    "id":3,
+    "category" : "solo",
+    "name": "오늘의 가장 좋았던 날에 대한 다꾸"
+  },
+  {
+    "id":4,
+    "category" : "solo",
+    "name": "평소 생각하던 버킷리스트 한 개 완성하기"
+  },
+  {
+    "id":5,
+    "category" : "solo",
+    "name": "20분동안 산책하기"
+  },
+  {
+    "id":6,
+    "category" : "solo",
+    "name": "방 청소하기"
+  },
+  {
+    "id":7,
+    "category" : "solo",
+    "name": "본인의 장단점 기록하기"
+  },
+  {
+    "id":8,
+    "category" : "solo",
+    "name": "읽고 싶은 책 찾아서 읽기"
+  },
+  {
+    "id":9,
+    "category" : "solo",
+    "name": "일기 쓰기"
+  },
+  {
+    "id":10,
+    "category" : "solo",
+    "name": "싫어하는 거/좋아하는 거 목록으로 작성해보기"
+  },
+  {
+    "id":11,
+    "category" : "solo",
+    "name": "미뤄둔 과제 하기"
+  },
+  {
+    "id":12,
+    "category" : "solo",
+    "name": "친구한테 편지 쓰기"
+  },
+  {
+    "id":13,
+    "category" : "solo",
+    "name": "노트북 파일 정리하기"
+  },
+  {
+    "id":14,
+    "category" : "solo",
+    "name": "가고싶었던 맛집 가기"
+  },
+  {
+    "id":15,
+    "category" : "solo",
+    "name": "출사 나가기"
+  },
+  {
+    "id":16,
+    "category" : "solo",
+    "name": "고양이 영상 보기"
+  },
+  {
+    "id":17,
+    "category" : "solo",
+    "name": "산책하기"
+  },
+  {
+    "id":18,
+    "category" : "solo",
+    "name": "좋아하는 음식점/카페 가기"
+  },
+  {
+    "id":19,
+    "category" : "solo",
+    "name": "운동하기"
+  },
+  {
+    "id":20,
+    "category" : "solo",
+    "name": "다이어리 쓰기"
+  },
+  {
+    "id":21,
+    "category" : "solo",
+    "name": "OTT 시청"
+  }
+]
+
+
+

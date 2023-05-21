@@ -1,0 +1,55 @@
+[
+  {
+    "id":1,
+    "category" : "ice-breaking",
+    "name": "상대방과 눈 마주친 상태로 상대방 초상화 그려주기"
+  },
+  {
+    "id":2,
+    "category" : "ice-breaking",
+    "name": "취미 공유하기"
+  },
+  {
+    "id":3,
+    "category" : "ice-breaking",
+    "name": "첫인상 공유하기"
+  },
+  {
+    "id":4,
+    "category" : "ice-breaking",
+    "name": "마주보고 있는 사람에게 자기소개하기"
+  },
+  {
+    "id":5,
+    "category" : "ice-breaking",
+    "name": "옆에 앉은 사람 칭찬하기"
+  },
+  {
+    "id":6,
+    "category" : "ice-breaking",
+    "name": "좌우명 얘기하기(이유도 같이)"
+  },
+  {
+    "id":7,
+    "category" : "ice-breaking",
+    "name": "좋아하는 책/영화/드라마 작품 얘기하기"
+  },
+  {
+    "id":8,
+    "category" : "ice-breaking",
+    "name": "자기소개하기"
+  },
+  {
+    "id":9,
+    "category" : "ice-breaking",
+    "name": "좋아하는 계절과 그 이유 말하기"
+  },
+  {
+    "id":10,
+    "category" : "ice-breaking",
+    "name": "스트레스 푸는 법 공유하기"
+  }
+]
+
+
+
